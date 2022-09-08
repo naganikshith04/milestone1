@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Manga</title>
-    <link rel="icon" href="logo.jpeg" type="image/icon type">
+    <link rel="icon" href="./img/logo.jpeg" type="image/icon type">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/newTrade.css">
     <script src="./JS/newTrades.js" ></script>
@@ -16,7 +16,7 @@
         <ul class="nav-bar">
             <li><a href="newTrade.html">Start Trading</a></li>
             <li><a href="#"> Login </a></li>
-            <button>Signup</button>     
+            <li><button>Signup</button></li>    
         </ul>
         <hr>
         <a class="tradesLink" href="trades.html">Trades</a>
@@ -24,7 +24,7 @@
     <div class="center-text">
         
         <div class="container">
-            <form >
+            <form action="trades.html" >
             <div class="row">
               <div class="col-25">
                 <label for="cat">Category</label>
@@ -59,7 +59,7 @@
             </div>
             <br>
             <div class="row">
-            <input type="submit" onClick="trades()" value="Create Trade">
+            <input type="submit" onclick="window.location = './trades.html' " value="Create Trade">
             <!-- <button onclick="trades()">Create Trade</button> -->
             </div>
             </form>
